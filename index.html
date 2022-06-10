@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+
+
+<body class="container">
+
+    <!-- Logo/Hero Image -->
+    <div class="hero">
+        <div class="row">
+            <div class="logo">
+                <img class="img-fluid" src="images/logo-2.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Card/Form Input Area -->
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-date"><img src="images/date-1.png" class="title-images"></label>
+                        <input type="date" class="form-control" id="new-date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new exercise"><img src="images/exercise-1.png" class="title-images"></label>
+                        <input type="text" class="form-control" id="new-exercise" placeholder="Exercise">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new task"><img src="images/reps-1.png" class="title-images"></label>
+                        <input type="text" class="form-control" id="new-reps" placeholder="Reps">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new rounds"><img src="images/rounds-1.png" class="title-images"></label>
+                        <input type="text" class="form-control" id="new-rounds" placeholder="Rounds">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new duration"><img src="images/duration-1.png" class="title-images"></label>
+                        <input type="text" class="form-control" id="new-duration" placeholder="Duration">
+                    </div>
+                </div>
+            </div>
+            <div><br>
+                <button id="add" class="btn form-control">行き過ぎ</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Table to hold data and delete data -->
+    <table id="data" class="table table-light table-striped">
+        <tr>
+            <th><img src="images/date-1.png" class="title-images"></th>
+            <th><img src="images/exercise-1.png" class="title-images"></th>
+            <th><img src="images/reps-1.png" class="title-images"></th>
+            <th><img src="images/rounds-1.png" class="title-images"></th>
+            <th><img src="images/duration-1.png" class="title-images"></th>
+            <th><img src="images/delete-1.png" class="title-images"></th>
+        </tr>
+    </table>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- <img src="images/date-1.png" class="title-images">
+<img src="images/duration-1.png" class="title-images">
+<img src="images/exercise-1.png" class="title-images">
+<img src="images/reps-1.png" class="title-images">
+<img src="images/rounds-1.png" class="title-images"> 
+<img src="images/delete-1.png" class="title-images"> -->
